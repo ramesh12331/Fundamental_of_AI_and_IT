@@ -1251,3 +1251,69 @@ You can add these visuals near the relevant sections:
 ![Image](https://images.openai.com/static-rsc-4/q7_Ol1BqmXP8IUAujJ06iUAB_zMVdr1APxdTFFoOQm7KDQ6xIyvG0FIZ55kjcmzhRXRELYiYXYBWXf8ZSnYOeyySDQ3n3P3o6SDULw1Gb7pKWU8VKGAlYAdKs9arh1IN4dV8Pq5iWG8W6T1UvEfjqc4kreJ3BRxvlpAT2Rdr5C3UJhljy0RTZ2MkQcYmPlFb?purpose=fullsize)
 
 These images visually reinforce SDLC, Waterfall, Agile, and Git concepts for training or interview preparation.
+
+---
+
+You can add a dedicated **Agile Methodology** image section to your README like this:
+
+### 🖼️ Agile Methodology Reference Image
+
+![Image](https://images.openai.com/static-rsc-4/1deM6x3tZ55-QFS7ndpbzHavv6tT5u4jddSEAu_rQF3TNNh7XT1wbQUeS-5I-F51qYdpnJMT5VJEDaZH4UxJBrUBmB4RKoabn-qvB8Wz8oC_-GjXM3LL58jXhHr8n0T11lzHdC5ByqVFDVIaQZ0d3hpTvGDB-wMxx1H8c1Za9Ug_YLhs-tfE5FUjEiWQiZ25?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/UU7gnLKohx9-p52S5ebhICKrQ4BUWW0-PusdvXtZwoK2InO4DEPbpc9yq9y_CAcNb1UJyBCsmN_-_Yk_BLV67kUYQeMIso_z7V67v01tMibM8ErRkSjrviU-PmwO7uAYNIgRQMGfgYiDkUQffbJzAijJ1ycRBSqxQHT2lM2GPgleuM7Ok3EACPGD0eGrDGVY?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/35RO64BQ4JBOZI7gVlJ5qBCz3DZhqutHU4b52Ij0SidOCVrtBvICdNhp3Mayq_s1xF_dVnxC2t60PCn3XM-Yfy9QAeWzZHUEIX5tCTlMWFJZsRg4NtygzJepCThBpcCS-NG56PDbUDz_YONncluSK5Tievb1LI8rFISyG_yabcgUq1ySXr73xKu0YySOMxzf?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/3hLQY7p-mvnY52KKW9rRkAdDhH_bB1xqY1LdZ7AH26YB8ELTvka4lHatCNcsIrkuI9otPCwzkmqYT_hnXsO2CR_7QocLjjdc5wIEy-LDjWa7cY3J-851mfhGcgtnQiNO6gzwCrO911_x1cnyoPXVxSGc58rKo-g9FVo2m4iwxryvVIAdMUyZbopZC5lfCZEY?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/C3lSirgsSgkh-0O20C0j7mMq9AogvjE-yHqBAaAvm7iwm3jXl9C5oF9rmlj5WzpyypLPWtCIm3FID1XdSBolhQmhoIoAv2WGv7ig3HFAgNn8VdiBMDtls7Byetz2J850uSthgIQ1NcJID2GE_zs-hb2H77SPDLECggeSPyFTEnKb5Z14P5MwCpB3Ga_GV0u6?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/jy1085l_qoCLgTdqQ71fzG8Bp6H06CfCvSftiDGWKL0ZmhuFuhc195yrxjBgGv7m9OQSZc_Kh3lOUNSZxrT-xLaa0jBFLku1JFUftFcG0i5bMOv3sW5wkb8A8RwBnavg54n-LUvx0Eu7Et5lgHBvw_JfjenM6oqytnJlugu_PacQjphxw7ol_f-cmRuabSdu?purpose=fullsize)
+
+### Markdown Section for README
+
+````markdown
+# 🖼️ Agile Methodology Diagram
+
+The Agile methodology follows an iterative and incremental approach where work is divided into small units called Sprints.
+
+```text
+Product Backlog
+       ↓
+Sprint Planning
+       ↓
+Development
+       ↓
+Testing
+       ↓
+Sprint Review
+       ↓
+Deployment
+       ↓
+Retrospective
+       ↓
+Next Sprint
+```
+
+### Agile Benefits
+
+✅ Faster delivery of features
+
+✅ Continuous customer feedback
+
+✅ Better collaboration
+
+✅ Continuous testing and quality improvement
+
+✅ Easy adaptation to changing requirements
+````
+
+### Recommended README Image Sections
+
+1. SDLC Lifecycle Diagram
+2. Waterfall Model Diagram
+3. Agile Sprint Cycle Diagram
+4. Scrum Team Roles Diagram
+5. Git Branching & Version Control Diagram
+
+This combination makes the README look professional and is ideal for interview preparation, training documentation, GitHub repositories, and software engineering notes.
