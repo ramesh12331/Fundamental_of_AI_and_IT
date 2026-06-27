@@ -39,3 +39,4 @@ product_info = {
 
 print(product_info["name"])
 print(product_info["price"])
+
