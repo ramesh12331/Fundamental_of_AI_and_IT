@@ -1,0 +1,19 @@
+student_id,name,age,gender,email,phone,department,year,gpa,attendance,grade,city,country,scholarship,is_active
+STU001,Alice Johnson,20,Female,alice.johnson@university.edu,+1-555-0101,Computer Science,2,3.8,92,A,New York,USA,True,True
+STU002,Bob Smith,21,Male,bob.smith@university.edu,+1-555-0102,Mathematics,3,3.2,85,B,Los Angeles,USA,False,True
+STU003,Carol White,19,Female,carol.white@university.edu,+44-555-0103,Physics,1,3.9,95,A,London,UK,True,True
+STU004,David Brown,22,Male,david.brown@university.edu,+1-555-0104,Engineering,4,2.8,78,C,Chicago,USA,False,True
+STU005,Eva Martinez,20,Female,eva.martinez@university.edu,+34-555-0105,Data Science,2,3.6,90,A,Madrid,Spain,True,True
+STU006,Frank Lee,23,Male,frank.lee@university.edu,+86-555-0106,Computer Science,4,3.1,80,B,Beijing,China,False,False
+STU007,Grace Kim,21,Female,grace.kim@university.edu,+82-555-0107,AI & Machine Learning,3,3.9,96,A,Seoul,South Korea,True,True
+STU008,Henry Wilson,22,Male,henry.wilson@university.edu,+1-555-0108,Business,4,2.5,70,C,Toronto,Canada,False,False
+STU009,Isla Thompson,19,Female,isla.thompson@university.edu,+61-555-0109,Psychology,1,3.4,88,B,Sydney,Australia,False,True
+STU010,James Davis,20,Male,james.davis@university.edu,+1-555-0110,Computer Science,2,3.7,91,A,Houston,USA,True,True
+STU011,Karen Moore,21,Female,karen.moore@university.edu,+1-555-0111,Chemistry,3,3.3,84,B,Phoenix,USA,False,True
+STU012,Liam Jackson,22,Male,liam.jackson@university.edu,+1-555-0112,Mathematics,4,2.9,75,C,Miami,USA,False,True
+STU013,Mia Harris,19,Female,mia.harris@university.edu,+1-555-0113,Data Science,1,3.8,93,A,Atlanta,USA,True,True
+STU014,Noah Clark,21,Male,noah.clark@university.edu,+49-555-0114,Engineering,3,3.5,87,B,Berlin,Germany,True,True
+STU015,Olivia Lewis,20,Female,olivia.lewis@university.edu,+1-555-0115,Physics,2,3.6,89,A,Dallas,USA,False,True
+STU016,Paul Walker,23,Male,paul.walker@university.edu,+33-555-0116,Computer Science,4,2.7,72,C,Paris,France,False,False
+STU017,Quinn Hall,19,Female,quinn.hall@university.edu,+1-555-0117,AI & Machine Learning,1,3.9,97,A,Seattle,USA,True,True
+STU018,Ryan Allen,22,Male,ryan.allen@university.edu,+81-555-0118,Computer Science,4,3.2,83,B,Tokyo,Japan,False,True
