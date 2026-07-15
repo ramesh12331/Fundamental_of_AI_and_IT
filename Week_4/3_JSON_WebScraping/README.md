@@ -751,6 +751,7 @@ Automatically collecting data from websites using Python.
 ```
 ---
 ![Image] https://chatgpt.com/s/m_6a578771fd0c819183e9865a4c90e11f
+
 ![Image] https://chatgpt.com/s/m_6a5789606c2c81918e0b02e9e18b8829
 
 This format is optimized for **Canva**, **GitHub README.md**, interview revision, and classroom presentation.
