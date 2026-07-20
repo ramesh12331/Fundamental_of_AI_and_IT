@@ -945,6 +945,8 @@ You have learned:
 🚀 You are now ready to start writing SQL queries and building PostgreSQL database applications.
 
 ---
-![Image] (https://chatgpt.com/s/m_6a5e41b16abc8191af29817acdada3c1)
+## PostgreSQL Installation
 
-![Image] (https://chatgpt.com/s/m_6a5e4393db9c819186dda6a9507e7a57)
+![PostgreSQL Installation Step 1](https://raw.githubusercontent.com/ramesh12331/Fundamental_of_AI_and_IT/master/Week_6/3_Installation_of_postgresql/img/img1.png)
+
+![PostgreSQL Installation Step 2](https://raw.githubusercontent.com/ramesh12331/Fundamental_of_AI_and_IT/master/Week_6/3_Installation_of_postgresql/img/img2.png)
