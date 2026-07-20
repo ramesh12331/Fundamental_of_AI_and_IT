@@ -945,6 +945,6 @@ You have learned:
 🚀 You are now ready to start writing SQL queries and building PostgreSQL database applications.
 
 ---
-![Image](https://chatgpt.com/s/m_6a5e41b16abc8191af29817acdada3c1)
+![Image] (https://chatgpt.com/s/m_6a5e41b16abc8191af29817acdada3c1)
 
-![Image](https://chatgpt.com/s/m_6a5e4393db9c819186dda6a9507e7a57)
+![Image] (https://chatgpt.com/s/m_6a5e4393db9c819186dda6a9507e7a57)
