@@ -1,0 +1,3 @@
+1.Days 1–10: 10 beginner logic problems (loops, conditions, strings, lists)
+2.Days 11–20: 10 intermediate problems (functions, dictionaries, files, OOP)
+3.Days 21–30: 10 real-world mini projects (ATM, Library, Student Management, Expense Tracker, etc.)
