@@ -948,5 +948,5 @@ You have learned:
 ## PostgreSQL Installation
 
 ![PostgreSQL Installation Step 1](https://raw.githubusercontent.com/ramesh12331/Fundamental_of_AI_and_IT/master/Week_6/3_Installation_of_postgresql/img/img1.png)
-
+---
 ![PostgreSQL Installation Step 2](https://raw.githubusercontent.com/ramesh12331/Fundamental_of_AI_and_IT/master/Week_6/3_Installation_of_postgresql/img/img2.png)
