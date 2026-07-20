@@ -1,0 +1,404 @@
+"""
+===============================================================================
+                            DATABASE & SQL NOTES
+===============================================================================
+
+📌 What is a Database?
+----------------------
+A Database is an organized collection of digital information stored in a
+computer system. It helps store, manage, retrieve, and manipulate data
+efficiently.
+
+Examples:
+---------
+✔ Student Records
+✔ Employee Details
+✔ Banking System
+✔ Hospital Management
+✔ E-commerce Applications
+
+===============================================================================
+                                SQL
+===============================================================================
+
+📌 SQL (Structured Query Language)
+----------------------------------
+SQL is a standard language used to communicate with Relational Databases.
+
+Data is stored in:
+------------------
+✔ Tables
+✔ Rows
+✔ Columns
+
+Popular SQL Databases
+---------------------
+✔ PostgreSQL
+✔ MySQL
+✔ Microsoft SQL Server (MS SQL)
+✔ Oracle Database
+✔ MariaDB
+
+===============================================================================
+                                NoSQL
+===============================================================================
+
+📌 NoSQL (Not Only SQL)
+-----------------------
+NoSQL databases store data in flexible formats like JSON Documents instead of
+traditional tables.
+
+Data is stored as:
+------------------
+✔ Collections
+✔ Documents (JSON)
+
+Popular NoSQL Databases
+-----------------------
+✔ MongoDB
+✔ DynamoDB
+✔ Elasticsearch
+
+===============================================================================
+                                 RDBMS
+===============================================================================
+
+📌 RDBMS (Relational Database Management System)
+------------------------------------------------
+RDBMS is software that understands SQL and manages relational databases.
+
+Responsibilities:
+-----------------
+✔ Store Data
+✔ Retrieve Data
+✔ Update Data
+✔ Delete Data
+✔ Manage Relationships
+✔ Ensure Security
+✔ Handle Multiple Users
+
+Examples:
+---------
+✔ PostgreSQL
+✔ MySQL
+✔ Oracle
+✔ SQL Server
+
+===============================================================================
+                          FEATURES OF SQL
+===============================================================================
+
+1️⃣ Data Retrieval
+------------------
+Retrieve data using SQL queries.
+
+Example:
+--------
+SELECT * FROM employees;
+
+-------------------------------------------------------------------------------
+
+2️⃣ Data Manipulation
+---------------------
+Modify existing data.
+
+Commands:
+---------
+✔ INSERT
+✔ UPDATE
+✔ DELETE
+
+-------------------------------------------------------------------------------
+
+3️⃣ Data Definition
+-------------------
+Create or modify database structures.
+
+Commands:
+---------
+✔ CREATE
+✔ ALTER
+✔ DROP
+
+-------------------------------------------------------------------------------
+
+4️⃣ Filtering & Sorting
+-----------------------
+Retrieve only required data using conditions.
+
+Example:
+--------
+SELECT *
+FROM employees
+WHERE department = 'HR'
+ORDER BY salary DESC;
+
+-------------------------------------------------------------------------------
+
+5️⃣ Joins
+---------
+Combine data from two or more tables.
+
+Example:
+--------
+SELECT employees.name,
+       departments.department_name
+FROM employees
+JOIN departments
+ON employees.department_id = departments.department_id;
+
+-------------------------------------------------------------------------------
+
+6️⃣ Aggregate Functions
+-----------------------
+Perform calculations on multiple rows.
+
+Functions:
+----------
+✔ SUM()
+✔ AVG()
+✔ COUNT()
+✔ MAX()
+✔ MIN()
+
+Example:
+--------
+SELECT COUNT(*) FROM employees;
+
+-------------------------------------------------------------------------------
+
+7️⃣ Security
+------------
+Manage users and permissions.
+
+Examples:
+---------
+✔ Create Users
+✔ Assign Roles
+✔ Grant Permissions
+✔ Revoke Permissions
+
+===============================================================================
+                             SQL EXAMPLE
+===============================================================================
+
+Retrieve employee name and salary where department is HR.
+
+Example:
+--------
+
+SELECT name, salary
+FROM employees
+WHERE department = 'HR';
+
+===============================================================================
+                          SQL LANGUAGE CATEGORIES
+===============================================================================
+
+1️⃣ DDL (Data Definition Language)
+----------------------------------
+
+Purpose:
+--------
+Defines or changes database structure.
+
+Commands:
+---------
+✔ CREATE
+✔ ALTER
+✔ DROP
+✔ TRUNCATE
+✔ RENAME
+
+Example:
+--------
+
+CREATE TABLE employees (
+    id INT,
+    name VARCHAR(100),
+    salary DECIMAL(10,2)
+);
+
+-------------------------------------------------------------------------------
+
+2️⃣ DML (Data Manipulation Language)
+-----------------------------------
+
+Purpose:
+--------
+Insert, Update and Delete records.
+
+Commands:
+---------
+✔ INSERT
+✔ UPDATE
+✔ DELETE
+
+Examples:
+---------
+
+INSERT INTO employees
+VALUES (1,'Ramesh',45000);
+
+UPDATE employees
+SET salary = 50000
+WHERE id = 1;
+
+DELETE FROM employees
+WHERE id = 1;
+
+-------------------------------------------------------------------------------
+
+3️⃣ DQL (Data Query Language)
+-----------------------------
+
+Purpose:
+--------
+Retrieve data.
+
+Command:
+--------
+✔ SELECT
+
+Example:
+--------
+
+SELECT *
+FROM employees;
+
+-------------------------------------------------------------------------------
+
+4️⃣ DCL (Data Control Language)
+-------------------------------
+
+Purpose:
+--------
+Manage permissions.
+
+Commands:
+---------
+✔ GRANT
+✔ REVOKE
+
+Example:
+--------
+
+GRANT SELECT
+ON employees
+TO user1;
+
+REVOKE SELECT
+ON employees
+FROM user1;
+
+===============================================================================
+                          DATABASE TOOLS
+===============================================================================
+
+📌 DBeaver
+----------
+A free GUI tool for managing SQL databases.
+
+Features:
+---------
+✔ Execute SQL Queries
+✔ Create Tables
+✔ View Data
+✔ Import/Export Data
+✔ ER Diagrams
+✔ Supports Multiple Databases
+
+-------------------------------------------------------------------------------
+
+📌 pgAdmin
+----------
+Official GUI tool for PostgreSQL.
+
+Features:
+---------
+✔ Database Management
+✔ Query Execution
+✔ Backup & Restore
+✔ User Management
+
+===============================================================================
+                         DOWNLOAD LINKS
+===============================================================================
+
+PostgreSQL:
+------------
+https://www.postgresql.org/download/
+
+DBeaver:
+---------
+https://dbeaver.io/download/
+
+===============================================================================
+                          INTERVIEW QUESTIONS
+===============================================================================
+
+Q1. What is a Database?
+A. A database is an organized collection of data stored electronically for easy
+storage, retrieval, and management.
+
+-------------------------------------------------------------------------------
+
+Q2. What is SQL?
+A. SQL (Structured Query Language) is used to create, retrieve, update, and
+delete data in relational databases.
+
+-------------------------------------------------------------------------------
+
+Q3. Difference between SQL and NoSQL?
+
+SQL
+----
+✔ Tables
+✔ Rows
+✔ Columns
+✔ Fixed Schema
+✔ ACID Transactions
+
+NoSQL
+------
+✔ Collections
+✔ Documents
+✔ Flexible Schema
+✔ JSON Data
+✔ High Scalability
+
+-------------------------------------------------------------------------------
+
+Q4. What is RDBMS?
+A. RDBMS is software that manages relational databases using SQL.
+
+-------------------------------------------------------------------------------
+
+Q5. Name some SQL Databases.
+
+✔ PostgreSQL
+✔ MySQL
+✔ Oracle
+✔ SQL Server
+✔ MariaDB
+
+-------------------------------------------------------------------------------
+
+Q6. Name some NoSQL Databases.
+
+✔ MongoDB
+✔ DynamoDB
+✔ Elasticsearch
+
+-------------------------------------------------------------------------------
+
+Q7. What are the SQL Categories?
+
+✔ DDL
+✔ DML
+✔ DQL
+✔ DCL
+
+===============================================================================
+                                END
+===============================================================================
